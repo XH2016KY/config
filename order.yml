@@ -18,7 +18,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf-8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root
+    password: '{cipher}dff2f73976fc1b053b3a9f3abeb1f2623a8672ff5c740200fd0fd7879eddfd2a'
   jpa:
     show-sql: true
 #服务器开启端口
