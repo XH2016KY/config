@@ -1,6 +1,6 @@
 #开发环境
 env:
-  test
+  dev111
 spring:
 #rabbitMQ配置
   rabbitmq:
