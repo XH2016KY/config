@@ -1,0 +1,18 @@
+/*Long a = System.currentTimeMillis();
+		userFuture.save(userForm);
+		Long b = System.currentTimeMillis()-a;
+		log.info("用时:{}",b+"毫秒");
+		// 指令重排！！！
+		String string = RedisTemplate.opsForValue().get("异常");
+		log.info("redis:->{}",string);
+		String result = null;
+		if(string.equals("写入成功")) {
+			result = "提交成功！激活邮件已发送到你注册的邮箱请接收";
+			return result;
+		}
+		else if(string.contains("for key 'user_name'")){
+			result = "用户已注册";
+			return result;
+		}else {
+			return null;
+		}*/
