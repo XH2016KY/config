@@ -14,7 +14,7 @@ spring:
     username: '{cipher}29991a5a51514daba9b8e55c1e6a2d85d0a2c2cdd860065ee161b8f1e1f85a4b'
     password: '{cipher}29991a5a51514daba9b8e55c1e6a2d85d0a2c2cdd860065ee161b8f1e1f85a4b'
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.200.141:3306/user-service?characterEncoding=utf-8&useSSL=false
+    url: '{cipher}ecb20708b22e0a97c5e053ca4377d4149cf40b7125278860e88957c64ad07e349941e10963e3e5df07808545d38ec7694fb758ae7c4b121632ce40dc1c27a7ee38a528bb7f4c4603f41c2af6de160e0c9d8cd27cfb713b2937c5f8679c9a62b796432677a9e1e9f17b123b10fea102d6'
   redis:
     host: '{cipher}80be8c5896e9f5fa3c0c87a129ae6eeac6315daddf1e082f2987fcbc1e6431c5'
     port: 6379
