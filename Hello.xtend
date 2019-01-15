@@ -55,7 +55,7 @@ class ProductSynchronizedController {
 		val Runnable r = [|
 
 			synchronized (ProductController) {
-                var sta = new Date().time
+                                var sta = new Date().time
 				log.info("副线程开始处理:{}",sta)
 				var a = productService.selectCount - product.quatity
 				log.info("库存->{}", a)
@@ -75,7 +75,7 @@ class ProductSynchronizedController {
 		]
 		pool.execute(r)
 		log.info("异步处理用时->{}", new Date().time - start)
-
+                d
 	}
 }
 
