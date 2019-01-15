@@ -47,7 +47,7 @@ class ProductAtomicController {
 		log.info("异步处理开始->{}", start)
 		val d = new DeferredResult<ServerRespose<Object>>(5*2000L,ServerRespose::FailOfError(500,"超时了"))
 		val Runnable r = [|
-            /** Atomic */
+                /** Atomic */
 	        val AtomicReference<Integer> count = new AtomicReference(0)
 			count.compareAndSet(0,productService.selectCount)
 			try {
