@@ -52,8 +52,7 @@ class DaoConfig {
 		master.url = masterUrl
 		master.username = username
 		master.password = password
-		master
-		
+		master	
 	}
 	
 	
