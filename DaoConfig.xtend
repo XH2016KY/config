@@ -27,8 +27,8 @@ class DaoConfig {
 	@Value("${jdbc.masterUrl}")
 	String masterUrl
 	
-    @Value("${jdbc.slaveUrl}")
-    String slaveUrl
+        @Value("${jdbc.slaveUrl}")
+        String slaveUrl
     
 	@Value("${jdbc.username}")
 	String username
