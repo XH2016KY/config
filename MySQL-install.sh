@@ -1,4 +1,4 @@
- 
+ #!/bin/bash
  yum -y install libaio
  yum remove mariadb-libs.x86_64
  groupadd mysql
