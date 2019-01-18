@@ -23,10 +23,10 @@ class DaoAop {
 	@Before(value="daoCut()")
 	def before(JoinPoint joinPoint) {
 		
-		val name = joinPoint.signature.name
-		val type = joinPoint.signature.declaringType
+          val name = joinPoint.signature.name
+	  val type = joinPoint.signature.declaringType
 	  val dingenskirchen = type.methods
-	    dingenskirchen.forEach[one|
+	  dingenskirchen.forEach[one|
 	    	if(one.name.equals(name)){
 	    		var ty = one.annotations.get(0)
 	    		if(ty instanceof Slave){
