@@ -72,3 +72,4 @@ interactive-timeout
 [mysqld_safe]
 open-files-limit = 8192
 
+
