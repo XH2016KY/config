@@ -19,7 +19,7 @@ import org.mybatis.spring.annotation.MapperScan
 @Component
 @PropertySource("jdbc1.properties")
 @MapperScan(#["com.oks.mapper"])
-class DaoConfig {
+class MybatisDaoConfig {
 	
 	@Value("${jdbc.className}")
 	String className
