@@ -16,8 +16,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver
 import org.mybatis.spring.annotation.MapperScan
 
 @Configuration
-@Component
-@PropertySource("jdbc1.properties")
+@PropertySource("jdbc.properties")
 @MapperScan(#["com.oks.mapper"])
 class MybatisDaoConfig {
 	
