@@ -16,7 +16,8 @@ port = 3306
 #datadir = /usr/local/mysql/data
 #socket = /var/run/mysqld/mysqld.sock
 character-set-server=utf8
-
+#slave-skip-errors=1062,1053,1146 #跳过指定error no类型的错误
+#slave-skip-errors=all #跳过所有错误
 
 back_log = 300
 max_connections = 3000
