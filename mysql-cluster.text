@@ -1,7 +1,7 @@
-mysql 的安装简单集群
-192.168.200.135
-192.168.200.136
-
+# mysql 的安装简单集群
+# 192.168.200.135
+# 192.168.200.136
+# cd 到 mysl-install.sh 的根目录
 ./mysql-install.sh 
 
 ln -f /usr/local/mysql/bin/mysql /usr/local/bin/
