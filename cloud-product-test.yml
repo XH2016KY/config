@@ -1,7 +1,4 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: '{cipher}0ea332065da488d4161b1c33ea2957bac7d2d555b288da71a75b63c43d02787c49098bd94a53913f4265ca0f58d64550b539f6aa737c826c8340c7f6a63873f2'
+
 server:
   port: 8088
 jdbc:
