@@ -8,7 +8,7 @@ jdbc:
   className: com.mysql.jdbc.Driver
   password: 
   testUrl: jdbc:mysql://132.232.148.75:3306/cloud_product?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-  username: 
+  username: '{cipher}deda188b23d9f7beb43856927ce999e1b24e5ca6533d1975671c076b499003c9'
   mybatis_config_file: mybatis-config.xml
   mapper_path: classpath:mapper/*.xml
   type_alias_path: com.oks.pojo
