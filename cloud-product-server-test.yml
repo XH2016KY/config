@@ -9,9 +9,9 @@ jdbc:
   password: '{cipher}0a5ec68b82c69ab224ef52117849ca99184833faa4da50c7ab53e2e433018cc1'
   testUrl: jdbc:mysql://132.232.148.75:3306/cloud_product?useUnicode=true&characterEncoding=UTF-8&useSSL=false
   username: '{cipher}0a5ec68b82c69ab224ef52117849ca99184833faa4da50c7ab53e2e433018cc1'
-mybatis_config_file: mybatis-config.xml
-mapper_path: classpath:mapper/*.xml
-type_alias_path: com.oks.pojo
+  mybatis_config_file: mybatis-config.xml
+  mapper_path: classpath:mapper/*.xml
+  type_alias_path: com.oks.pojo
 spring:
   application:
     name: cloud-product
