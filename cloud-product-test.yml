@@ -15,3 +15,5 @@ spring:
   jackson:
     date-format: yyyy-MM-dd hh:mm:ss
     time-zone: GMT+8
+test:
+  testConfig: ggg,oks
