@@ -1,13 +1,13 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://132.232.148.75:8761/eureka/
+      defaultZone: '{cipher}0ea332065da488d4161b1c33ea2957bac7d2d555b288da71a75b63c43d02787c49098bd94a53913f4265ca0f58d64550b539f6aa737c826c8340c7f6a63873f2'
 server:
   port: 8088
 jdbc:
-  className: com.mysql.jdbc.Driver
-  password: 
-  testUrl: jdbc:mysql://132.232.148.75:3306/cloud_product?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+  className: '{cipher}a2c6f215e0dc1f09a077660245cb8cb2f032000c164a5280fb5e29d29e48e6aac38442b01b7a328d3d3ea9f98459b909'
+  password: '{cipher}cb6e3e01985e8da31844b22ada8220931fb889f55e2f05a9fe1e2a8a42c3c8d6'
+  testUrl: '{cipher}92542f6bbe076dc93b78df7c9c9f0ed381ccd7ebb58cf82abb4a279105061dced5d095e724d877297e9861d7ba14b2f3551a24715f38545cfad429577000376a38252b14e7bd0f57fb6844ce90d30214ca5f63e98b11d3941beac45e9b0e60acb630e8690259970dba061a3f0b9f5522e9fd2af61474e24baa9ffb9cff93dc8a'
   username: '{cipher}deda188b23d9f7beb43856927ce999e1b24e5ca6533d1975671c076b499003c9'
   mybatis_config_file: mybatis-config.xml
   mapper_path: classpath:mapper/*.xml
