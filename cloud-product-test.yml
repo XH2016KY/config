@@ -16,4 +16,4 @@ spring:
     date-format: yyyy-MM-dd hh:mm:ss
     time-zone: GMT+8
 test:
-  testConfig: ggg,obb,kolhggXXXXXXgllzzzopasdd->(){"oh,mygod!!!!"}\\\\\jdfjskfjdskl
+  testConfig: ggg,obb,kolhggXXXXXXgllzzzopasdd->(){"oh,mygod!!!!"}\\\\\op
